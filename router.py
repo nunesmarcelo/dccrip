@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #   TP 2 - Redes - DDCNET
 #   Marcelo Nunes da Silva
 #   Wanderson Sena
@@ -5,8 +7,10 @@ import sys
 import socket
 import threading
 import json
+import signal
+import time
+import os
 
-#!/usr/bin/python3
 class DCCRIP:
     def __init__(self):
         #Leituras stdin
@@ -20,20 +24,54 @@ class DCCRIP:
         
         # Target , Cost , NextStep , TimeOut
         self.rountingTable = {}
-        self.rountingTable[self.myAddress] = { 'Cost' : 0 , 'NextStep' : self.myAddress , 'TimeOut' : -1}
+        self.rountingTable[self.myAddress] = { 'Cost' : 0 ,'NextStep' : self.myAddress , 'TimeOut' : -1}
 
         # Neighbor , Cost
         self.neighborsTable = {}
 
+        try:
+            self.con = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # Internet # UDP
+            self.con.bind((self.myAddress, self.port))
+        except socket.error as err:
+            print("Socket error:" , err)
+            sys.exit(0)
+    
+    def execution(self):
+        try:
+            #startListen = threading.Thread(target = self.startListen)
+            #startListen.start()
+            
+
+            startInput = threading.Thread(target = self.meetNeighbors)
+            startInput.start()
+
+            #startListen.join()
+            startInput.join()
+            #signal.pause()
+            
+        except KeyboardInterrupt:
+            print("\n")
+            self.con.close()
+            self.input.close()
+            #signal.pthread_kill(startListen.ident, signal.SIGKILL)
+            signal.pthread_kill(startInput.ident, signal.SIGKILL)
+
+            sys.exit(0)
+            #os._exit(1)
+            
+
   
     def startListen(self):
-        sock = socket.socket(socket.AF_INET, # Internet
-                            socket.SOCK_DGRAM) # UDP
-        sock.bind((self.myAddress, self.port))
-
         while True:
-            data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
-            data = data.loads(data)
+            try:
+                print("lendo")
+                data, addr = self.con.recvfrom(1024) # buffer size is 1024 bytes
+                print("lido")
+            except KeyboardInterrupt:
+                raise KeyboardInterrupt
+
+            print("Update received")
+            data = data.loads( bytes.decode( data) )
 
             if(data['type'] == 'update'):
                 distances = data['distances']
@@ -42,16 +80,21 @@ class DCCRIP:
                     if ((address not in self.rountingTable.keys()) or self.rountingTable[address]['Cost']  > distances[address]['Cost'] + self.neighborsTable[address]['Cost']):
                         self.rountingTable[address]['Cost'] = distances[address]['Cost'] + self.neighborsTable[address]['Cost']
                         self.rountingTable[address]['Target'] = address
-                        
-
+      
     def meetNeighbors(self):
-        self.addToNeighborTable(self.myAddress, 0)
-        readCount = self.input.readline()
-        while readCount:
-            if readCount.split(' ')[0] == 'add':
-                self.addToNeighborTable(readCount.split(' ')[1] , readCount.split(' ')[2] )
-
-        readCount = self.input.readline()
+        try:
+            print('meet Neighbors')
+            self.addToNeighborTable(self.myAddress, 0)
+            readCount = self.input.readline()
+            print(readCount)
+            while readCount:
+                print("meetNeighbors")
+                print(readCount)
+                if readCount.split(' ')[0] == 'add':
+                    self.addToNeighborTable(readCount.split(' ')[1] , readCount.split(' ')[2] )
+                readCount = self.input.readline()
+        except KeyboardInterrupt:
+            raise KeyboardInterrupt
 
     def addToNeighborTable( self, address , cost ):
         self.neighborsTable[address] = {'Cost' : cost }
@@ -60,7 +103,9 @@ class DCCRIP:
         sock = socket.socket(socket.AF_INET, # Internet
                             socket.SOCK_DGRAM) # UDP
 
-        for key in self.neighborsTable:
+        for key in self.neighborsTable.copy():
+            print("Send Update")
+            if key == self.myAddress: continue
 
             # Make a copy of neighbor dict and del the target address before send
             distances = self.neighborsTable
@@ -72,20 +117,25 @@ class DCCRIP:
                 'destination': key,
                 'distances': distances
             }
-            sock.sendto(message, (key, self.port))
+            sock.sendto(str.encode( json.dumps( message ) ), (key, self.port))
+            print("Update Sended")
+        #self.sendUpdateTimer.start()
 
-    def execution(self):
-        listen = threading.Thread(target = self.startListen)
-        listen.start()
-
-        self.meetNeighbors()
-
-        timer = threading.Timer(self.period, self.sendUpdate())
-        timer.start()
+    def imprimirTabelas(self):
+        threading.Timer(7 , self.imprimirTabelas).start()
+        # print("-"*40)
+        # print("Tabela de vizinhos: " , self.neighborsTable)
+        # print("Tabela de roteamento (GERAL)" , self.rountingTable)
+        # print("-"*40)
+    
         
 
 if __name__ == "__main__":
-    route = DCCRIP()
-    route.execution()
+    try:
+        route = DCCRIP()
+        route.execution()
+    except Exception as e:
+        print("Na main: " + e)
+        sys.exit(0)
 
 # logging: http://zeldani.blogspot.com/2012/08/python-usando-o-modulo-threading.html

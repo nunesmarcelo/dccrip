@@ -1,13 +1,9 @@
-# import sys
-# with open(sys.argv[1], 'r') if len(sys.argv) > 1 else sys.stdin as f:
-#     leitura = f.readline()
-#     while leitura:
-#         print(leitura)
-#         leitura = f.readline()
+#!/usr/bin/python3
 
-lista = {}
-lista['129'] = {"custo" :  10 , 'prox' : '130'}
-lista['1229'] = {"custo" :  120 , 'prox' : '1130'}
+import threading
 
-for value in lista:
-    print(value)
+def printit():
+  
+  print ("Hello, World!")
+
+threading.Timer(5.0, printit).start()
