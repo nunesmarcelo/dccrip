@@ -13,14 +13,18 @@ import os
 
 class DCCRIP:
     def __init__(self):
+
+        if (len(sys.argv)< 3):
+            print("input failure. Correct pattern:")
+            print("\t./router.py <address> <period> <startup (optional)>")
+            os._exit(0)
+
         #Leituras stdin
         self.myAddress = sys.argv[1]
         self.period      = sys.argv[2]
         self.port = 55151
-        if(len(sys.argv) > 3):
-            self.input = open(sys.argv[3], 'r')
-        else:
-            self.input = sys.stdin
+
+        self.input = open(sys.argv[3], 'r') if len(sys.argv) > 3 else None
         
         # Target , Cost , NextStep , TimeOut
         self.rountingTable = {}
@@ -38,26 +42,21 @@ class DCCRIP:
     
     def execution(self):
         try:
-            #startListen = threading.Thread(target = self.startListen)
-            #startListen.start()
+            startListen = threading.Thread(target = self.startListen)
+            startListen.start()
             
-
             startInput = threading.Thread(target = self.meetNeighbors)
             startInput.start()
 
-            #startListen.join()
+            startListen.join()
             startInput.join()
-            #signal.pause()
             
         except KeyboardInterrupt:
             print("\n")
             self.con.close()
-            self.input.close()
-            #signal.pthread_kill(startListen.ident, signal.SIGKILL)
-            signal.pthread_kill(startInput.ident, signal.SIGKILL)
-
-            sys.exit(0)
-            #os._exit(1)
+            if self.input != None:
+                self.input.close()
+            os._exit(1)
             
 
   
@@ -71,7 +70,7 @@ class DCCRIP:
                 raise KeyboardInterrupt
 
             print("Update received")
-            data = data.loads( bytes.decode( data) )
+            data = json.loads( bytes.decode( data) )
 
             if(data['type'] == 'update'):
                 distances = data['distances']
@@ -85,14 +84,19 @@ class DCCRIP:
         try:
             print('meet Neighbors')
             self.addToNeighborTable(self.myAddress, 0)
-            readCount = self.input.readline()
-            print(readCount)
+            readCount = self.input.readline() if self.input != None else input()
             while readCount:
-                print("meetNeighbors")
-                print(readCount)
                 if readCount.split(' ')[0] == 'add':
-                    self.addToNeighborTable(readCount.split(' ')[1] , readCount.split(' ')[2] )
-                readCount = self.input.readline()
+                    if len(readCount.split(' ')) <= 2:
+                        print("Input failure. Correct pattern:")
+                        print("add <address> <cost>")
+                    else:
+                        self.addToNeighborTable(readCount.split(' ')[1] , readCount.split(' ')[2] )
+                                
+                if readCount.split(' ')[0] == 'print':
+                    self.imprimirTabelas()
+
+                readCount = self.input.readline() if self.input != None else input()
         except KeyboardInterrupt:
             raise KeyboardInterrupt
 
@@ -108,7 +112,7 @@ class DCCRIP:
             if key == self.myAddress: continue
 
             # Make a copy of neighbor dict and del the target address before send
-            distances = self.neighborsTable
+            distances = self.rountingTable
             del distances[key] 
 
             message = { 
@@ -122,11 +126,11 @@ class DCCRIP:
         #self.sendUpdateTimer.start()
 
     def imprimirTabelas(self):
-        threading.Timer(7 , self.imprimirTabelas).start()
-        # print("-"*40)
-        # print("Tabela de vizinhos: " , self.neighborsTable)
-        # print("Tabela de roteamento (GERAL)" , self.rountingTable)
-        # print("-"*40)
+        #threading.Timer(7 , self.imprimirTabelas).start()
+        print("-"*40)
+        print("Tabela de vizinhos: " , self.neighborsTable)
+        print("Tabela de roteamento (GERAL)" , self.rountingTable)
+        print("-"*40)
     
         
 
