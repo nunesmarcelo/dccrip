@@ -77,8 +77,10 @@ class DCCRIP:
                 for address in distances:
                     # If old cost greater than new cost -> swap
                     if ((address not in self.routingTable.keys()) or self.routingTable[address]['Cost']  > distances[address]['Cost'] + self.neighborsTable[address]['Cost']):
-                        self.routingTable[address]['Cost'] = distances[address]['Cost'] + self.neighborsTable[address]['Cost']
-                        self.routingTable[address]['NextStep'] = address
+                        self.routingTable[address] = { 
+                        	'Cost' : distances[address]['Cost'] + self.neighborsTable[address]['Cost'] ,
+                        	'NextStep' : address
+                        }
       
     def meetNeighbors(self):
         try:
@@ -102,11 +104,8 @@ class DCCRIP:
             raise KeyboardInterrupt
 
     def addNeighbor( self, address , cost ):
-    	print(self.neighborsTable)
-    	print(self.routingTable)
-        self.neighborsTable[address]['Cost'] = cost 
-        self.routingTable[address]['Cost'] = cost
-        self.routingTable[address]['NextStep'] = address
+    	self.neighborsTable[address] = { 'Cost' : cost}
+    	self.routingTable[address] = {'Cost' : cost , 'NextStep' : address}
 
     def sendUpdate(self):
         sock = socket.socket(socket.AF_INET, # Internet
