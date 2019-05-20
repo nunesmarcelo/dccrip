@@ -27,8 +27,8 @@ class DCCRIP:
         self.input = open(sys.argv[3], 'r') if len(sys.argv) > 3 else None
         
         # Target , Cost , NextStep , TimeOut
-        self.rountingTable = {}
-        self.rountingTable[self.myAddress] = { 'Cost' : 0 ,'NextStep' : self.myAddress , 'TimeOut' : -1}
+        self.routingTable = {}
+        self.routingTable[self.myAddress] = { 'Cost' : 0 ,'NextStep' : self.myAddress , 'TimeOut' : -1}
 
         # Neighbor , Cost
         self.neighborsTable = {}
@@ -76,14 +76,14 @@ class DCCRIP:
                 distances = data['distances']
                 for address in distances:
                     # If old cost greater than new cost -> swap
-                    if ((address not in self.rountingTable.keys()) or self.rountingTable[address]['Cost']  > distances[address]['Cost'] + self.neighborsTable[address]['Cost']):
-                        self.rountingTable[address]['Cost'] = distances[address]['Cost'] + self.neighborsTable[address]['Cost']
-                        self.rountingTable[address]['Target'] = address
+                    if ((address not in self.routingTable.keys()) or self.routingTable[address]['Cost']  > distances[address]['Cost'] + self.neighborsTable[address]['Cost']):
+                        self.routingTable[address]['Cost'] = distances[address]['Cost'] + self.neighborsTable[address]['Cost']
+                        self.routingTable[address]['NextStep'] = address
       
     def meetNeighbors(self):
         try:
             print('meet Neighbors')
-            self.addToNeighborTable(self.myAddress, 0)
+            self.addNeighbor(self.myAddress, 0)
             readCount = self.input.readline() if self.input != None else input()
             while readCount:
                 if readCount.split(' ')[0] == 'add':
@@ -91,8 +91,9 @@ class DCCRIP:
                         print("Input failure. Correct pattern:")
                         print("add <address> <cost>")
                     else:
-                        self.addToNeighborTable(readCount.split(' ')[1] , readCount.split(' ')[2] )
-                                
+                        self.addNeighbor(readCount.split(' ')[1] , readCount.split(' ')[2] )
+                        self.sendUpdate()
+       
                 if readCount.split(' ')[0] == 'print':
                     self.imprimirTabelas()
 
@@ -100,8 +101,12 @@ class DCCRIP:
         except KeyboardInterrupt:
             raise KeyboardInterrupt
 
-    def addToNeighborTable( self, address , cost ):
-        self.neighborsTable[address] = {'Cost' : cost }
+    def addNeighbor( self, address , cost ):
+    	print(self.neighborsTable)
+    	print(self.routingTable)
+        self.neighborsTable[address]['Cost'] = cost 
+        self.routingTable[address]['Cost'] = cost
+        self.routingTable[address]['NextStep'] = address
 
     def sendUpdate(self):
         sock = socket.socket(socket.AF_INET, # Internet
@@ -112,8 +117,9 @@ class DCCRIP:
             if key == self.myAddress: continue
 
             # Make a copy of neighbor dict and del the target address before send
-            distances = self.rountingTable
-            del distances[key] 
+            distances = self.routingTable
+            if (key in distances.keys()):
+                del distances[key] 
 
             message = { 
                 'type'  : 'update',
@@ -128,8 +134,8 @@ class DCCRIP:
     def imprimirTabelas(self):
         #threading.Timer(7 , self.imprimirTabelas).start()
         print("-"*40)
-        print("Tabela de vizinhos: " , self.neighborsTable)
-        print("Tabela de roteamento (GERAL)" , self.rountingTable)
+        print("TV: " , self.neighborsTable)
+        print("TR: " , self.routingTable)
         print("-"*40)
     
         
