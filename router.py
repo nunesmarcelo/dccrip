@@ -7,16 +7,16 @@ import sys
 import socket
 import threading
 import json
-import signal
-import time
 import os
+import logging
+
+logging.basicConfig(filename="output.log" , level=logging.DEBUG , format='%(levelname)s: line: %(lineno)d , Nó {} diz: -> %(message)s '.format(sys.argv[1]))
 
 class DCCRIP:
     def __init__(self):
 
-        if (len(sys.argv)< 3):
-            print("input failure. Correct pattern:")
-            print("\t./router.py <address> <period> <startup (optional)>")
+        if (len(sys.argv) < 3):
+            print("Input failure. Correct pattern:\t./router.py <ADDR> <PERIOD> [STARTUP]")
             os._exit(0)
 
         #inputs from terminal
@@ -50,12 +50,10 @@ class DCCRIP:
             startInput = threading.Thread(target = self.listenInputs)
             startInput.start()
 
-            self.startSend = threading.Timer( float(self.period) ,  self.sendUpdates) # Timer
-            self.startSend.start()
+            self.sendUpdates() # Timer
 
             startListen.join()
             startInput.join()
-            self.startSend.join()
             
         except KeyboardInterrupt:
             print("\n")
@@ -67,31 +65,79 @@ class DCCRIP:
 
     def listenUpdates(self):
         while True:
+            #Receive data
             try:
                 data, addr = self.con.recvfrom(1024) # buffer size is 1024 bytes
             except KeyboardInterrupt:
                 raise KeyboardInterrupt
 
             data = json.loads( bytes.decode( data) )
+
+            # If type = update -> update routingWeightTable and routingNextStepTable
             if(data['type'] == 'update'):
                 distances = data['distances']
                 
                 for address in distances:
-                    print(distances , "         source: " , data['source'])
-                    #If is my neighbor but i don't know him
-                    if((address not in self.neighborsTable and distances[address] == 0)): 
-                        continue 
-                    
+                    #print(address, distances[address] , type(distances[address]))
+
+                    if(data['source'] not in self.neighborsTable):
+                        break
+
                     # If old weight greater than new weight -> swap
-                    if ((address not in self.routingWeightTable.keys()) or int(self.routingWeightTable[address])  > int(distances[address]) + int(self.neighborsTable[data['source']])):
+                    if ((address not in self.routingWeightTable.keys()) or int(self.routingWeightTable[address]) > int(distances[address]) + int(self.neighborsTable[data['source']])):
                         self.routingWeightTable[address] = int(distances[address]) + int(self.neighborsTable[data['source']])
                         self.routingNextStepTable[address] = data['source']
+
+                        logging.debug('Endereço atualizado: {} - antigo: {} - peso: {}'.format(address , int(self.routingWeightTable[address]) , int(distances[address]) + int(self.neighborsTable[data['source']])))
+
+            # If type = table -> send self routingWeightTable and routingNexStepTable for who requested
+            if(data['type'] == 'trace' or data['type'] == 'table'):
+                sock = socket.socket(socket.AF_INET , socket.SOCK_DGRAM) # UDP socket
+
+                print("trace vindoo" , self.myAddress , data['destination'])
+                
+                # If this node is the destination
+                if(data['destination'] == self.myAddress):    
+                    # Create a data message to return
+                    message = {
+                        'type':'data',
+                        'source': self.myAddress,
+                        'destination' : data['source']
+                    }
+
+                    #The type of return is the table of this node
+                    if(data['type'] == 'table'):
+                        message.update({ 'payload' : [ (ip,self.routingNextStepTable[ip],self.routingWeightTable[ip]) for ip in self.routingWeightTable ] })
+                    
+                    #The type of return is a list of addresses
+                    if(data['type'] == 'trace'):
+                        message.update({'payload' : data['hops']})
+                        message['payload'].append(self.myAddress)
+                else:
+                    # If this is not the destination, just pass the package (updating it if is trace package)
+                    message = data
+                    if(message['type'] == 'trace'):
+                        message['hops'].append(self.myAddress)
+                    
+                #print("message: " , message , ' - next: ' , self.routingNextStepTable[ message['destination'] ])
+                sock.sendto(str.encode ( json.dumps( message ) ) , ( self.routingNextStepTable[ message['destination'] ] , self.port) )
+            
+            if(data['type'] == 'data'):
+                if(data['destination'] == self.myAddress):
+                    for itemData in data['payload']:
+                        print(itemData) 
+                else:
+                    sock = socket.socket(socket.AF_INET , socket.SOCK_DGRAM) # UDP socket
+                    sock.sendto( str.encode(json.dumps(data)) , (self.routingNextStepTable[data['destination']] , self.port) )
+
+                
+
       
     def listenInputs(self):
         try:
             readCount = self.input.readline() if self.input != None else input() #input() if has no file open, or readline() else.
             while readCount:
-                print(readCount)
+                # ADD Neighbor
                 if readCount.split(' ')[0] == 'add':
                     if len(readCount.split(' ')) <= 2:
                         print("Input failure. Correct pattern:")
@@ -100,8 +146,28 @@ class DCCRIP:
                         self.routingWeightTable[readCount.split(' ')[1] ] = readCount.split(' ')[2]
                         self.routingNextStepTable[readCount.split(' ')[1] ] = readCount.split(' ')[1]
                         self.neighborsTable[readCount.split(' ')[1]] = readCount.split(' ')[2]
-                        self.sendUpdates()
-       
+                        self.sendUpdates(repetir=False)
+
+                # Table and Trace
+                if readCount.split(' ')[0] == 'table' or readCount.split(' ')[0] == 'trace':
+                    readType = readCount.split(' ')[0]
+                    destination = readCount.split(' ')[1] # the ip that will give the table or trace route
+                    if (len(readCount.split(' ')) <= 1):
+                        print('Input failure. Correct pattern:')
+                        print("table <ip>") if readType == 'table' else print("trace <ip>")
+                    else:
+                        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP socket
+                        message = {
+                            'type'  : readType,
+                            'source': self.myAddress ,  
+                            'destination': destination
+                        }
+                        
+                        if readType == 'trace':
+                            message.update({ 'hops' : [self.myAddress] })
+
+                        sock.sendto(str.encode ( json.dumps( message ) ) , ( self.routingNextStepTable[destination], self.port) )
+
                 if readCount.split(' ')[0] == 'print':
                     self.imprimirTabelas()
 
@@ -109,7 +175,7 @@ class DCCRIP:
         except KeyboardInterrupt:
             raise KeyboardInterrupt
 
-    def sendUpdates(self):
+    def sendUpdates(self , repetir = True):
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP socket
             for key in self.neighborsTable:
@@ -126,9 +192,11 @@ class DCCRIP:
                     'distances': distances
                 }
                 sock.sendto(str.encode( json.dumps( message ) ), (key, self.port))
-            
-            self.startSend = threading.Timer( float(self.period) , self.sendUpdates)
-            self.startSend.start()
+
+            if (repetir):
+                startSend = threading.Timer( float(self.period), self.sendUpdates)
+                startSend.start()
+
         except:
             print('veio aqui embaixo')
             os._exit(0)
