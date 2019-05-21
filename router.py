@@ -19,37 +19,43 @@ class DCCRIP:
             print("\t./router.py <address> <period> <startup (optional)>")
             os._exit(0)
 
-        #Leituras stdin
+        #inputs from terminal
         self.myAddress = sys.argv[1]
         self.period      = sys.argv[2]
         self.port = 55151
 
         self.input = open(sys.argv[3], 'r') if len(sys.argv) > 3 else None
         
-        # Target , Cost , NextStep , TimeOut
-        self.routingTable = {}
-        self.routingTable[self.myAddress] = { 'Cost' : 0 ,'NextStep' : self.myAddress , 'TimeOut' : -1}
+        # IP : Weight | IP : NextStep
+        self.routingWeightTable = {}
+        self.routingNextStepTable = {}
+        self.routingWeightTable[self.myAddress] = 0
+        self.routingNextStepTable[self.myAddress] = self.myAddress
 
-        # Neighbor , Cost
+        # IP : Weight
         self.neighborsTable = {}
 
         try:
-            self.con = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # Internet # UDP
-            self.con.bind((self.myAddress, self.port))
+            self.con = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP socket
+            self.con.bind((self.myAddress, self.port)) # bind instance
         except socket.error as err:
             print("Socket error:" , err)
             sys.exit(0)
     
     def execution(self):
         try:
-            startListen = threading.Thread(target = self.startListen)
+            startListen = threading.Thread(target = self.listenUpdates)
             startListen.start()
             
-            startInput = threading.Thread(target = self.meetNeighbors)
+            startInput = threading.Thread(target = self.listenInputs)
             startInput.start()
+
+            self.startSend = threading.Timer( float(self.period) ,  self.sendUpdates) # Timer
+            self.startSend.start()
 
             startListen.join()
             startInput.join()
+            self.startSend.join()
             
         except KeyboardInterrupt:
             print("\n")
@@ -59,42 +65,42 @@ class DCCRIP:
             os._exit(1)
             
 
-  
-    def startListen(self):
+    def listenUpdates(self):
         while True:
             try:
-                print("lendo")
                 data, addr = self.con.recvfrom(1024) # buffer size is 1024 bytes
-                print("lido")
             except KeyboardInterrupt:
                 raise KeyboardInterrupt
 
-            print("Update received")
             data = json.loads( bytes.decode( data) )
-
             if(data['type'] == 'update'):
                 distances = data['distances']
+                
                 for address in distances:
-                    # If old cost greater than new cost -> swap
-                    if ((address not in self.routingTable.keys()) or self.routingTable[address]['Cost']  > distances[address]['Cost'] + self.neighborsTable[address]['Cost']):
-                        self.routingTable[address] = { 
-                        	'Cost' : distances[address]['Cost'] + self.neighborsTable[address]['Cost'] ,
-                        	'NextStep' : address
-                        }
+                    print(distances , "         source: " , data['source'])
+                    #If is my neighbor but i don't know him
+                    if((address not in self.neighborsTable and distances[address] == 0)): 
+                        continue 
+                    
+                    # If old weight greater than new weight -> swap
+                    if ((address not in self.routingWeightTable.keys()) or int(self.routingWeightTable[address])  > int(distances[address]) + int(self.neighborsTable[data['source']])):
+                        self.routingWeightTable[address] = int(distances[address]) + int(self.neighborsTable[data['source']])
+                        self.routingNextStepTable[address] = data['source']
       
-    def meetNeighbors(self):
+    def listenInputs(self):
         try:
-            print('meet Neighbors')
-            self.addNeighbor(self.myAddress, 0)
-            readCount = self.input.readline() if self.input != None else input()
+            readCount = self.input.readline() if self.input != None else input() #input() if has no file open, or readline() else.
             while readCount:
+                print(readCount)
                 if readCount.split(' ')[0] == 'add':
                     if len(readCount.split(' ')) <= 2:
                         print("Input failure. Correct pattern:")
-                        print("add <address> <cost>")
+                        print("add <ip> <weight>")
                     else:
-                        self.addNeighbor(readCount.split(' ')[1] , readCount.split(' ')[2] )
-                        self.sendUpdate()
+                        self.routingWeightTable[readCount.split(' ')[1] ] = readCount.split(' ')[2]
+                        self.routingNextStepTable[readCount.split(' ')[1] ] = readCount.split(' ')[1]
+                        self.neighborsTable[readCount.split(' ')[1]] = readCount.split(' ')[2]
+                        self.sendUpdates()
        
                 if readCount.split(' ')[0] == 'print':
                     self.imprimirTabelas()
@@ -103,39 +109,48 @@ class DCCRIP:
         except KeyboardInterrupt:
             raise KeyboardInterrupt
 
-    def addNeighbor( self, address , cost ):
-    	self.neighborsTable[address] = { 'Cost' : cost}
-    	self.routingTable[address] = {'Cost' : cost , 'NextStep' : address}
+    def sendUpdates(self):
+        try:
+            sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP socket
+            for key in self.neighborsTable:
 
-    def sendUpdate(self):
-        sock = socket.socket(socket.AF_INET, # Internet
-                            socket.SOCK_DGRAM) # UDP
+                # Make a dict of type -> 'ip' : 'cost' 
+                distances = self.routingWeightTable.copy()
+                if key in distances.keys():
+                    del distances[key]
 
-        for key in self.neighborsTable.copy():
-            print("Send Update")
-            if key == self.myAddress: continue
-
-            # Make a copy of neighbor dict and del the target address before send
-            distances = self.routingTable
-            if (key in distances.keys()):
-                del distances[key] 
-
-            message = { 
-                'type'  : 'update',
-                'source': self.myAddress ,  
-                'destination': key,
-                'distances': distances
-            }
-            sock.sendto(str.encode( json.dumps( message ) ), (key, self.port))
-            print("Update Sended")
-        #self.sendUpdateTimer.start()
+                message = { 
+                    'type'  : 'update',
+                    'source': self.myAddress ,  
+                    'destination': key,
+                    'distances': distances
+                }
+                sock.sendto(str.encode( json.dumps( message ) ), (key, self.port))
+            
+            self.startSend = threading.Timer( float(self.period) , self.sendUpdates)
+            self.startSend.start()
+        except:
+            print('veio aqui embaixo')
+            os._exit(0)
 
     def imprimirTabelas(self):
         #threading.Timer(7 , self.imprimirTabelas).start()
-        print("-"*40)
-        print("TV: " , self.neighborsTable)
-        print("TR: " , self.routingTable)
-        print("-"*40)
+        try:
+            print("-"*40)
+            print("**** VIZINHOS ----- ")
+            for k in self.neighborsTable:
+                print(k , "---> " , self.neighborsTable[k])
+
+            print('**** PESOS ----')
+            for k in self.routingWeightTable:
+                print(k , ' ---> ' , self.routingWeightTable[k]) 
+
+            print('**** NEXT -----')
+            for k in self.routingNextStepTable:
+                print(k , ' ---> ' , self.routingNextStepTable[k])
+            print("-"*40)
+        except:
+            print("ERROOO")
     
         
 
@@ -143,8 +158,7 @@ if __name__ == "__main__":
     try:
         route = DCCRIP()
         route.execution()
-    except Exception as e:
-        print("Na main: " + e)
-        sys.exit(0)
+    except KeyboardInterrupt:
+        os._exit(0)
 
 # logging: http://zeldani.blogspot.com/2012/08/python-usando-o-modulo-threading.html
