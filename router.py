@@ -3,6 +3,14 @@
 #   TP 2 - Redes - DDCNET
 #   Marcelo Nunes da Silva
 #   Wanderson Sena
+
+# Comands:
+# add <ip> <weight>
+# del <ip>
+# table <ip>
+# trace <ip>
+# quit
+
 import sys
 import socket
 import threading
@@ -10,30 +18,30 @@ import json
 import os
 import logging
 
+#Log for hidden debug
 logging.basicConfig(filename="output.log" , level=logging.DEBUG , format='%(levelname)s:linha: %(lineno)d,{} -operação: -> %(message)s '.format(sys.argv[1]))
 
 class DCCRIP:
     def __init__(self):
 
-        if (len(sys.argv) < 3):
+        if (len(sys.argv) < 3): # The min lenght of input is 3 ( program, addr and period are required)
             print("Input failure. Correct pattern:\t./router.py <ADDR> <PERIOD> [STARTUP]")
             os._exit(0)
 
-        #inputs from terminal
-        self.myAddress = sys.argv[1]
-        self.period      = sys.argv[2]
-        self.port = 55151
+        #inputs from terminal start
+        self.myAddress = sys.argv[1] # address to identify this node
+        self.period      = float(sys.argv[2]) # period for send and check updates
+        self.port = 55151 # port to bind
 
-        self.input = open(sys.argv[3], 'r') if len(sys.argv) > 3 else None
+        self.input = open(sys.argv[3], 'r') if len(sys.argv) > 3 else None # If argv[3] exists, uses as input inside line command
         
-        # IP : Weight | IP : NextStep
-        # self.routingWeightTable = {}
-        # self.routingNextStepTable = {}
-        # self.routingWeightTable[self.myAddress] = 0
-        # self.routingNextStepTable[self.myAddress] = self.myAddress
-
+        # Create the routing table of this node, and add myself inside it
         self.routingTable = {}
-        self.routingTable[self.myAddress] = { 'weight' : 0 , 'next' : self.myAddress}
+        # Weight -> cost of move in this edge
+        # Next -> List of bests nodes to go towards the desired node
+        # Timeout -> time marker to remove itens when 4*period reset
+        # Index of Next ->  Integer to control the index of 'next' field, and know what is the next node to go, to balance the load.
+        self.routingTable[self.myAddress] = { 'weight' : 0 , 'next' : [self.myAddress] , 'timeout' : 4*self.period , 'indexOfNext' : 0}
 
         # IP : Weight
         self.neighborsTable = {}
@@ -47,13 +55,15 @@ class DCCRIP:
     
     def execution(self):
         try:
-            startListen = threading.Thread(target = self.listenUpdates)
+            startListen = threading.Thread(target = self.listenMessages)
             startListen.start()
             
             startInput = threading.Thread(target = self.listenInputs)
             startInput.start()
 
             self.sendUpdates() #  Send Updates at every period seconds (timer to repeat inside the function)
+
+            self.checkAndUpdatePeriods() # At every period, we update the timeouts, and clean the outdated nodes
 
             startListen.join()
             startInput.join()
@@ -66,7 +76,7 @@ class DCCRIP:
             os._exit(1)
             
 
-    def listenUpdates(self):
+    def listenMessages(self):
         while True:
             #Receive data
             try:
@@ -84,7 +94,7 @@ class DCCRIP:
                 for address in distances:
                     #print(address, distances[address] , type(distances[address]))
 
-                    #If sender not is my neighbor , i don't can receive his package.
+                    #If sender not is my neighbor , i can not receive this package.
                     if(data['source'] not in self.neighborsTable):
                         break
 
@@ -94,24 +104,39 @@ class DCCRIP:
                         int(self.routingTable[address]['weight']) > (int(distances[address]) + int(self.neighborsTable[data['source']])) ):
                         self.routingTable[address] = {}
                         self.routingTable[address]['weight'] = int(distances[address]) + int(self.neighborsTable[data['source']])
-                        self.routingTable[address]['next'] = data['source']
+                        self.routingTable[address]['next'] = [data['source']]
+                        self.routingTable[address]['indexOfNext'] = 0
 
                         logging.debug('Endereço atualizado: {} - antigo: {} - peso: {}'.format(address , int(self.routingTable[address]['weight']) , int(distances[address]) + int(self.neighborsTable[data['source']])))
 
+                    # If there is a different node of this that has the same cost , we have to balance the load
+                    if (int(self.routingTable[address]['weight']) == (int(distances[address]) + int(self.neighborsTable[data['source']])) and
+                        data['source'] not in self.routingTable[address]['next']):
+                        self.routingTable[address]['next'].append(data['source'])
+
                 # Delete the ips that are in the old routingTable, but are not on the distances received.
+                # Update the timeout otherwise.
                 for old in self.routingTable.copy():
-                    if self.routingTable[old]['next'] == data['source'] and old not in distances:
-                        del self.routingTable[old]
+                    if data['source'] in self.routingTable[old]['next'] and old not in distances:
+                        if len(self.routingTable[old]['next']) == 1:
+                            #if it is unique route in the table, remove it
+                            del self.routingTable[old]
+                        else:
+                            #if have more then one, remove just that index
+                            self.routingTable[old]['next'].remove(old)
+                            self.routingTable[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
+                    else:
+                        self.routingTable[old]['timeout'] = 4*self.period
 
                 # If this message is to del our connection, delete this neighbor for the neighborTable
                 if distances == {} and data['source'] in self.neighborsTable:
                     del self.neighborsTable[data['source']]
 
-            # If type = table -> send self routingWeightTable and routingNexStepTable for who requested
+            # If type = table or trace -> send the routingTable or the trace for who requested
             if(data['type'] == 'trace' or data['type'] == 'table'):
                 sock = socket.socket(socket.AF_INET , socket.SOCK_DGRAM) # UDP socket
 
-                print("trace:" , self.myAddress , ' para ', data['destination'])
+                logging.debug("trace - passou em : {} sentido ao nó: {}".format(self.myAddress ,data['destination']))
                 
                 # If this node is the destination
                 if(data['destination'] == self.myAddress):    
@@ -122,37 +147,57 @@ class DCCRIP:
                         'destination' : data['source']
                     }
 
-                    #The type of return is the table of this node
+                    # Payload is the table of this node, if type is table
                     if(data['type'] == 'table'):
                         message.update({ 'payload' : [ (ip,self.routingTable[ip]['next'],self.routingTable[ip]['weight']) for ip in self.routingTable ] })
                     
-                    #The type of return is a list of addresses
+                    # Payload is the trace generated, if type is trace
                     if(data['type'] == 'trace'):
-                        message.update({'payload' : data['hops']})
-                        message['payload'].append(self.myAddress)
+                        # If i don't know this neighbor yet, i can not ask trace for him.
+                        if message['destination'] not in self.routingTable:
+                            message['payload'] = "Unable to communicate with this node."
+                        else:
+                            message.update({'payload' : data['hops']})
+                            message['payload'].append(self.myAddress)
                 else:
-                    # If this is not the destination, just pass the package (updating it if is trace package)
                     message = data
-                    if(message['type'] == 'trace'):
-                        message['hops'].append(self.myAddress)
+                    # Catch connections that not exists
+                    if message['destination'] not in self.routingTable:
+                        message['source'] = self.myAddress
+                        message['destination'] = data['source']
+                        message['payload'] = "Unable to communicate with this node."
+                    # If this node is not the destination, just pass the package (updating it if is a 'trace' package)
+                    else:
+                        if(message['type'] == 'trace'):
+                            message['hops'].append(self.myAddress)
                     
-                #print("message: " , message , ' - next: ' , self.routingTable[ message['destination'] ])
-                sock.sendto(str.encode ( json.dumps( message ) ) , ( self.routingTable[ message['destination'] ]['next'] , self.port) )
+                sock.sendto(
+                    # message
+                    str.encode ( json.dumps( message ) ) , 
+                    # send for routing[ destination ][ next ][ choice the next loking at indexofnext ]
+                    ( self.routingTable[ message['destination'] ]['next'][ self.routingTable[ message['destination'] ]['indexOfNext'] ] ,
+                    self.port) 
+                )
+                #update the index of next (used for balance the load)
+                self.routingTable[ message['destination'] ]['indexOfNext'] = (self.routingTable[ message['destination'] ]['indexOfNext'] + 1) % len(self.routingTable[ message['destination'] ]['next'])
+            
             
             if(data['type'] == 'data'):
                 if(data['destination'] == self.myAddress):
                     print(data['payload'])
                 else:
                     sock = socket.socket(socket.AF_INET , socket.SOCK_DGRAM) # UDP socket
-                    sock.sendto( str.encode(json.dumps(data)) , (self.routingTable[data['destination']]['next'] , self.port) )
 
-                
+                    # send for routing[ destination ][ next ][ choice the next loking at indexofnext ]
+                    sock.sendto( str.encode(json.dumps(data)) , (self.routingTable[ data['destination'] ]['next'][ self.routingTable[ data['destination'] ]['indexOfNext'] ] , self.port) )
+                    #update the index of next (used for balance the load)
+                    self.routingTable[ data['destination'] ]['indexOfNext'] = (self.routingTable[ data['destination'] ]['indexOfNext'] + 1) % len(self.routingTable[ data['destination'] ]['next'])
+            
 
-      
     def listenInputs(self):
         try:
              while True:
-                readCommand = self.input.readline() if self.input != None else input() #input() if has no file open, or readline() else.
+                readCommand = self.input.readline() if self.input != None else input() #input() if has no file open, or readline() otherwise.
 
                 if(readCommand == 'quit'):
                     os._exit(0)
@@ -164,8 +209,10 @@ class DCCRIP:
                     else:
                         self.routingTable[readCommand.split(' ')[1] ] = {}
                         self.routingTable[readCommand.split(' ')[1] ]['weight'] = readCommand.split(' ')[2]
-                        self.routingTable[readCommand.split(' ')[1] ]['next'] = readCommand.split(' ')[1]
-                        self.neighborsTable[readCommand.split(' ')[1]] = readCommand.split(' ')[2]
+                        self.routingTable[readCommand.split(' ')[1] ]['next'] = [ readCommand.split(' ')[1] ]
+                        self.routingTable[readCommand.split(' ')[1] ]['timeout'] = 4*self.period
+                        self.routingTable[readCommand.split(' ')[1] ]['indexOfNext'] = 0
+                        self.neighborsTable[readCommand.split(' ')[1] ] = readCommand.split(' ')[2]
                         self.sendUpdates(repeat=False)
                 
                 if readCommand.split(' ')[0] == 'del':
@@ -176,17 +223,15 @@ class DCCRIP:
                         if ip in self.neighborsTable: # Remove the ip from neighborhood if it is neighbor
                             del self.neighborsTable[ip]
 
-                            # if ip in self.routingWeightTable: # Remove the ip from Weights if there exists 
-                            #     del self.routingWeightTable[ip]
-                            # if ip in self.routingNextStepTable: # Remove the ip from nextsteps if there exists
-                            #     del self.routingNextStepTable[ip]
-
-                            # if ip in self.routingTable.values():
-                            #     del self.routingTable[ip]
-
                             for old in self.routingTable.copy():
-                                if ip == self.routingTable[old]['next']:
-                                    del self.routingTable[old]
+                                if ip in self.routingTable[old]['next']:
+                                    if len(self.routingTable[old]['next']) == 1:
+                                        #if it is unique route in the table, remove it
+                                        del self.routingTable[old]
+                                    else:
+                                        #if have more then one, remove just that index
+                                        self.routingTable[old]['next'].remove(old)
+                                        self.routingTable[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
 
                             self.sendUpdates(repeat=False , ipExcluded=ip) # Send the news from the others.
                         else:
@@ -200,18 +245,26 @@ class DCCRIP:
                         print('Input failure. Correct pattern:' , end='\t')
                         print("table <ip>") if readType == 'table' else print("trace <ip>")
                     else:
-                        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP socket
-                        message = {
-                            'type'  : readType,
-                            'source': self.myAddress ,  
-                            'destination': destination
-                        }
                         
-                        if readType == 'trace':
-                            message.update({ 'hops' : [self.myAddress] })
+                        if destination not in self.routingTable:
+                            print("Ip not found on the neighborhood")
+                        else:
+                            sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP socket
+                            message = {
+                                'type'  : readType,
+                                'source': self.myAddress ,  
+                                'destination': destination
+                            }
+                            
+                            # If the command is trace, start the list of trace 
+                            if readType == 'trace':
+                                message.update({ 'hops' : [self.myAddress] })
 
-                        sock.sendto(str.encode ( json.dumps( message ) ) , ( self.routingTable[destination]['next'], self.port) )
-
+                            #send the request to the next on the routing table
+                            sock.sendto(str.encode ( json.dumps( message ) ) , ( self.routingTable[destination]['next'][ self.routingTable[destination]['indexOfNext'] ], self.port) )
+                            
+                            #update the index of next (used for balance the load)
+                            self.routingTable[destination]['indexOfNext'] = (self.routingTable[destination]['indexOfNext'] + 1) % len(self.routingTable[destination]['next'])
                 if readCommand.split(' ')[0] == 'print':
                     self.imprimirTabelas()
 
@@ -223,18 +276,10 @@ class DCCRIP:
             sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP socket
             for key in self.neighborsTable:
 
-                # Make a dict of type -> 'ip' : 'cost'  
+                # Make a copy of routingTable 
                 distances = self.routingTable.copy()
 
-                #Split Horizon
-                # if key in distances: # 1º don't send for x information to go to x
-                #     del distances[key]
-                # for nextStep in self.routingTable: # 2º don't send for x information that uses x as next step
-                #     if key == self.routingNextStepTable[nextStep] and nextStep in distances:
-                #         del distances[nextStep]
-                # if key in distances or key in distances.values():
-                #     del distances[key]
-                
+                #Applying Split Horizon
                 for old in distances.copy():
                     if key == old or key == distances[old]['next']:
                         del distances[old]
@@ -245,9 +290,13 @@ class DCCRIP:
                     'destination': key,
                     'distances': { ip : distances[ip]['weight'] for ip in distances}
                 }
-                sock.sendto(str.encode( json.dumps( message ) ), (key, self.port))
 
-            if (ipExcluded != None): # Used for tell to the ip that the connection is over (connection excluded)
+                if key in self.routingTable:
+                    sock.sendto(str.encode( json.dumps( message ) ), ( self.routingTable[key]['next'][self.routingTable[key]['indexOfNext']], self.port))
+                    #update the index of next (used for balance the load)
+                    self.routingTable[key]['indexOfNext'] = (self.routingTable[key]['indexOfNext'] + 1) % len(self.routingTable[key]['next'])
+
+            if (ipExcluded != None): # Used for inform ip that the connection is over (hey, my side canceled the connection)
                 message = { 
                     'type'  : 'update',
                     'source': self.myAddress ,  
@@ -256,12 +305,31 @@ class DCCRIP:
                 }
                 sock.sendto(str.encode( json.dumps( message ) ), (ipExcluded, self.port))
 
-            if (repeat):
-                startSend = threading.Timer( float(self.period), self.sendUpdates)
+            if (repeat): # update every 'period' seconds
+                startSend = threading.Timer( self.period, self.sendUpdates)
                 startSend.start()
 
         except KeyboardInterrupt:
             raise KeyboardInterrupt
+
+    def checkAndUpdatePeriods(self):
+        for ip in self.routingTable.copy():
+            if ip == self.myAddress : continue
+                      
+            # If timeout, remove of table
+            #print(int(self.routingTable[ip]['timeout']))
+
+            if int(self.routingTable[ip]['timeout']) <= 0:
+                del self.routingTable[ip]
+            else:
+                # Update timeout
+                self.routingTable[ip]['timeout'] -= self.period
+
+        # Check and decrease again 'period' seconds
+        checkAgain = threading.Timer( self.period, self.checkAndUpdatePeriods)
+        checkAgain.start()
+
+        
 
     def imprimirTabelas(self):
         #threading.Timer(7 , self.imprimirTabelas).start()
@@ -287,4 +355,3 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         os._exit(0)
 
-# logging: http://zeldani.blogspot.com/2012/08/python-usando-o-modulo-threading.html
