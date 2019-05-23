@@ -10,6 +10,7 @@
 # table <ip>
 # trace <ip>
 # quit
+# Extra command(to debug) : print
 
 import sys
 import socket
@@ -17,9 +18,11 @@ import threading
 import json
 import os
 import logging
+import copy # To make a deep copy of dicts
 
 #Log for hidden debug
-logging.basicConfig(filename="output.log" , level=logging.DEBUG , format='%(levelname)s:linha: %(lineno)d,{} -operação: -> %(message)s '.format(sys.argv[1]))
+if len(sys.argv) >= 2:
+    logging.basicConfig(filename="output.log" , level=logging.DEBUG , format='%(levelname)s:linha: %(lineno)d,{} -operação: -> %(message)s '.format(sys.argv[1]))
 
 class DCCRIP:
     def __init__(self):
@@ -32,9 +35,11 @@ class DCCRIP:
         self.myAddress = sys.argv[1] # address to identify this node
         self.period      = float(sys.argv[2]) # period for send and check updates
         self.port = 55151 # port to bind
-
-        self.input = open(sys.argv[3], 'r') if len(sys.argv) > 3 else None # If argv[3] exists, uses as input inside line command
-        
+        try:
+            self.input = open(sys.argv[3], 'r') if len(sys.argv) > 3 else None # If argv[3] exists, uses as input inside line command
+        except FileNotFoundError:
+            print("File ", sys.argv[3] ," not found! " )
+            os._exit(1)
         # Create the routing table of this node, and add myself inside it
         self.routingTable = {}
         # Weight -> cost of move in this edge
@@ -92,7 +97,6 @@ class DCCRIP:
                 distances = data['distances']
                 
                 for address in distances:
-                    #print(address, distances[address] , type(distances[address]))
 
                     #If sender not is my neighbor , i can not receive this package.
                     if(data['source'] not in self.neighborsTable):
@@ -102,6 +106,7 @@ class DCCRIP:
                     # If ip not in routingTable, add 
                     if ((address not in self.routingTable) or 
                         int(self.routingTable[address]['weight']) > (int(distances[address]) + int(self.neighborsTable[data['source']])) ):
+                        
                         self.routingTable[address] = {}
                         self.routingTable[address]['weight'] = int(distances[address]) + int(self.neighborsTable[data['source']])
                         self.routingTable[address]['next'] = [data['source']]
@@ -112,6 +117,7 @@ class DCCRIP:
                     # If there is a different node of this that has the same cost , we have to balance the load
                     if (int(self.routingTable[address]['weight']) == (int(distances[address]) + int(self.neighborsTable[data['source']])) and
                         data['source'] not in self.routingTable[address]['next']):
+                        
                         self.routingTable[address]['next'].append(data['source'])
 
                 # Delete the ips that are in the old routingTable, but are not on the distances received.
@@ -123,7 +129,7 @@ class DCCRIP:
                             del self.routingTable[old]
                         else:
                             #if have more then one, remove just that index
-                            self.routingTable[old]['next'].remove(old)
+                            self.routingTable[old]['next'].remove(data['source'])
                             self.routingTable[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
                     else:
                         self.routingTable[old]['timeout'] = 4*self.period
@@ -198,15 +204,21 @@ class DCCRIP:
         try:
              while True:
                 readCommand = self.input.readline() if self.input != None else input() #input() if has no file open, or readline() otherwise.
-
+                
                 if(readCommand == 'quit'):
                     os._exit(0)
+
+                if(readCommand == '' and self.input != None):
+                    self.input = None
+                    continue
 
                 # Add Neighbor
                 if readCommand.split(' ')[0] == 'add':
                     if len(readCommand.split(' ')) <= 2:
                         print("Input failure. Correct pattern:\t add <ip> <weight>")
                     else:
+                        if readCommand.split(' ')[1] == self.myAddress:
+                            continue
                         self.routingTable[readCommand.split(' ')[1] ] = {}
                         self.routingTable[readCommand.split(' ')[1] ]['weight'] = readCommand.split(' ')[2]
                         self.routingTable[readCommand.split(' ')[1] ]['next'] = [ readCommand.split(' ')[1] ]
@@ -223,16 +235,15 @@ class DCCRIP:
                         if ip in self.neighborsTable: # Remove the ip from neighborhood if it is neighbor
                             del self.neighborsTable[ip]
 
-                            for old in self.routingTable.copy():
+                            for old in self.routingTable:
                                 if ip in self.routingTable[old]['next']:
                                     if len(self.routingTable[old]['next']) == 1:
                                         #if it is unique route in the table, remove it
                                         del self.routingTable[old]
                                     else:
                                         #if have more then one, remove just that index
-                                        self.routingTable[old]['next'].remove(old)
+                                        self.routingTable[old]['next'].remove(ip)
                                         self.routingTable[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
-
                             self.sendUpdates(repeat=False , ipExcluded=ip) # Send the news from the others.
                         else:
                             print('Ip not found on the neighborhood')
@@ -266,7 +277,7 @@ class DCCRIP:
                             #update the index of next (used for balance the load)
                             self.routingTable[destination]['indexOfNext'] = (self.routingTable[destination]['indexOfNext'] + 1) % len(self.routingTable[destination]['next'])
                 if readCommand.split(' ')[0] == 'print':
-                    self.imprimirTabelas()
+                    self.printTables()
 
         except KeyboardInterrupt:
             raise KeyboardInterrupt
@@ -274,16 +285,25 @@ class DCCRIP:
     def sendUpdates(self , repeat = True , ipExcluded = None):
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP socket
-            for key in self.neighborsTable:
+            for key in self.neighborsTable.copy():
 
                 # Make a copy of routingTable 
-                distances = self.routingTable.copy()
+                distances = copy.deepcopy( self.routingTable )
 
                 #Applying Split Horizon
                 for old in distances.copy():
-                    if key == old or key == distances[old]['next']:
+                    if key == old:
                         del distances[old]
-
+                    else:
+                        if key in distances[old]['next']:
+                            if len(self.routingTable[old]['next']) == 1:
+                                #if it is unique route in the table, remove it
+                                del distances[old]
+                            else:
+                                #if have more then one, remove just that index
+                                distances[old]['next'].remove(key)
+                                distances[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
+                    
                 message = { 
                     'type'  : 'update',
                     'source': self.myAddress ,  
@@ -294,7 +314,7 @@ class DCCRIP:
                 if key in self.routingTable:
                     sock.sendto(str.encode( json.dumps( message ) ), ( self.routingTable[key]['next'][self.routingTable[key]['indexOfNext']], self.port))
                     #update the index of next (used for balance the load)
-                    self.routingTable[key]['indexOfNext'] = (self.routingTable[key]['indexOfNext'] + 1) % len(self.routingTable[key]['next'])
+                    # self.routingTable[key]['indexOfNext'] = (self.routingTable[key]['indexOfNext'] + 1) % len(self.routingTable[key]['next'])
 
             if (ipExcluded != None): # Used for inform ip that the connection is over (hey, my side canceled the connection)
                 message = { 
@@ -316,9 +336,6 @@ class DCCRIP:
         for ip in self.routingTable.copy():
             if ip == self.myAddress : continue
                       
-            # If timeout, remove of table
-            #print(int(self.routingTable[ip]['timeout']))
-
             if int(self.routingTable[ip]['timeout']) <= 0:
                 del self.routingTable[ip]
             else:
@@ -331,18 +348,18 @@ class DCCRIP:
 
         
 
-    def imprimirTabelas(self):
-        #threading.Timer(7 , self.imprimirTabelas).start()
+    def printTables(self):
+        #threading.Timer(7 , self.printTables).start()
         try:
-            print("-"*40)
-            print("**** VIZINHOS ----- ")
+            print("-"*20)
+            print("**** VIZINHOS **** ")
             for k in self.neighborsTable:
-                print(k , "---> " , self.neighborsTable[k])
+                print(k , "-> " , self.neighborsTable[k].strip('\n'))
 
-            print('**** PESOS ----')
+            print('**** PESOS ****')
             for k in self.routingTable:
-                print(k , ' ---> ' , self.routingTable[k]['weight'] , ' ---> ' , self.routingTable[k]['next']) 
-            print("-"*40)
+               print("{}----{}----{}----{}".replace('\n',' ').replace('\t',' ').replace(' ','').format(k,str( self.routingTable[k]['weight'] ).replace('\n' ,''),self.routingTable[k]['next'],self.routingTable[k]['timeout']))
+            print("-"*20)
         except Exception as e:
             print(e)
     

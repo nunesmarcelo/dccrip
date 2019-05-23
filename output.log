@@ -67,3 +67,1359 @@ DEBUG:linha: 110,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - ant
 DEBUG:linha: 110,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
 DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 10 - peso: 10 
 DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 10 - peso: 10 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 110,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 110,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 10 - peso: 10 
+DEBUG:linha: 110,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 10 - peso: 10 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 110,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 110,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 139,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 30 - peso: 30 
+DEBUG:linha: 110,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 110,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 1 - peso: 1 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 30 - peso: 30 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 30 - peso: 30 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 40 - peso: 40 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 40 - peso: 40 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 50 - peso: 50 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 60 - peso: 60 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 60 - peso: 60 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 70 - peso: 70 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 80 - peso: 80 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 80 - peso: 80 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 90 - peso: 90 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 100 - peso: 100 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 100 - peso: 100 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 110 - peso: 110 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 120 - peso: 120 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 120 - peso: 120 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 130 - peso: 130 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 140 - peso: 140 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 140 - peso: 140 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 150 - peso: 150 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 160 - peso: 160 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 160 - peso: 160 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 170 - peso: 170 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 180 - peso: 180 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 180 - peso: 180 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 190 - peso: 190 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 200 - peso: 200 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 200 - peso: 200 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 210 - peso: 210 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 220 - peso: 220 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 220 - peso: 220 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 230 - peso: 230 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 240 - peso: 240 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 240 - peso: 240 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 250 - peso: 250 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 260 - peso: 260 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 260 - peso: 260 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 270 - peso: 270 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 280 - peso: 280 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 280 - peso: 280 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 290 - peso: 290 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 300 - peso: 300 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 300 - peso: 300 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 310 - peso: 310 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 320 - peso: 320 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 320 - peso: 320 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 330 - peso: 330 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 340 - peso: 340 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 340 - peso: 340 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 350 - peso: 350 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 360 - peso: 360 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 360 - peso: 360 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 370 - peso: 370 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 380 - peso: 380 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 380 - peso: 380 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 390 - peso: 390 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 400 - peso: 400 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 400 - peso: 400 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 410 - peso: 410 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 420 - peso: 420 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 420 - peso: 420 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 430 - peso: 430 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 440 - peso: 440 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 440 - peso: 440 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 450 - peso: 450 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 460 - peso: 460 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 460 - peso: 460 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 470 - peso: 470 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 480 - peso: 480 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 480 - peso: 480 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 490 - peso: 490 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 500 - peso: 500 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 500 - peso: 500 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 510 - peso: 510 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 520 - peso: 520 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 520 - peso: 520 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 530 - peso: 530 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 540 - peso: 540 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 540 - peso: 540 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 550 - peso: 550 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 560 - peso: 560 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 560 - peso: 560 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 570 - peso: 570 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 580 - peso: 580 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 590 - peso: 590 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 600 - peso: 600 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 610 - peso: 610 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 620 - peso: 620 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 630 - peso: 630 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 640 - peso: 640 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 650 - peso: 650 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 660 - peso: 660 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 670 - peso: 670 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 680 - peso: 680 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 690 - peso: 690 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 10 - peso: 10 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 141,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 141,127.0.1.4 -operação: -> trace - passou em : 127.0.1.4 sentido ao nó: 127.0.1.4 
+DEBUG:linha: 141,127.0.1.4 -operação: -> trace - passou em : 127.0.1.4 sentido ao nó: 127.0.1.4 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.4 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 141,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 112,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 114,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 114,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 114,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 114,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 114,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 114,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 118,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 119,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 119,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 119,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 119,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 119,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 119,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 152,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 152,127.0.1.3 -operação: -> trace - passou em : 127.0.1.3 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 152,127.0.1.3 -operação: -> trace - passou em : 127.0.1.3 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 143,127.0.1.3 -operação: -> trace - passou em : 127.0.1.3 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.5 
+DEBUG:linha: 143,127.0.1.3 -operação: -> trace - passou em : 127.0.1.3 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 143,127.0.1.3 -operação: -> trace - passou em : 127.0.1.3 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 143,127.0.1.3 -operação: -> trace - passou em : 127.0.1.3 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 143,127.0.1.3 -operação: -> trace - passou em : 127.0.1.3 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 143,127.0.1.3 -operação: -> trace - passou em : 127.0.1.3 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 143,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 143,127.0.1.3 -operação: -> trace - passou em : 127.0.1.3 sentido ao nó: 127.0.1.3 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 113,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 115,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 115,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 115,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 115,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 115,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 115,127.0.1.3 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 145,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 145,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 145,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 145,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
