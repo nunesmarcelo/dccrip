@@ -46,7 +46,7 @@ class DCCRIP:
         # Next -> List of bests nodes to go towards the desired node
         # Timeout -> time marker to remove itens when 4*period reset
         # Index of Next ->  Integer to control the index of 'next' field, and know what is the next node to go, to balance the load.
-        self.routingTable[self.myAddress] = { 'weight' : 0 , 'next' : [self.myAddress] , 'timeout' : 4*self.period , 'indexOfNext' : 0}
+        self.routingTable[self.myAddress] = { 'weight' : 0 , 'next' : [self.myAddress] , 'timeout' : [4*self.period] , 'indexOfNext' : 0}
 
         # IP : Weight
         self.neighborsTable = {}
@@ -111,6 +111,7 @@ class DCCRIP:
                         self.routingTable[address]['weight'] = int(distances[address]) + int(self.neighborsTable[data['source']])
                         self.routingTable[address]['next'] = [data['source']]
                         self.routingTable[address]['indexOfNext'] = 0
+                        self.routingTable[address]['timeout'] = [4*self.period]
 
                         logging.debug('Endereço atualizado: {} - antigo: {} - peso: {}'.format(address , int(self.routingTable[address]['weight']) , int(distances[address]) + int(self.neighborsTable[data['source']])))
 
@@ -119,20 +120,23 @@ class DCCRIP:
                         data['source'] not in self.routingTable[address]['next']):
                         
                         self.routingTable[address]['next'].append(data['source'])
+                        self.routingTable[address]['timeout'].append( 4*self.period )
 
                 # Delete the ips that are in the old routingTable, but are not on the distances received.
-                # Update the timeout otherwise.
+                # Make 4*period(full) the 'timeout' otherwise.
                 for old in self.routingTable.copy():
-                    if data['source'] in self.routingTable[old]['next'] and old not in distances:
-                        if len(self.routingTable[old]['next']) == 1:
-                            #if it is unique route in the table, remove it
-                            del self.routingTable[old]
+                    if data['source'] in self.routingTable[old]['next']:
+                        if old not in distances:
+                            if len(self.routingTable[old]['next']) == 1:
+                                #if it is unique route in the table, remove it
+                                del self.routingTable[old]
+                            else:
+                                #if have more then one, remove just that index from next and timeout
+                                self.routingTable[old]['next'].remove(data['source'])
+                                del self.routingTable[old]['timeout'][ self.routingTable[old]['next'].index(data['source']) ]
+                                self.routingTable[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
                         else:
-                            #if have more then one, remove just that index
-                            self.routingTable[old]['next'].remove(data['source'])
-                            self.routingTable[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
-                    else:
-                        self.routingTable[old]['timeout'] = 4*self.period
+                            self.routingTable[old]['timeout'][ self.routingTable[old]['next'].index(data['source']) ] = 4*self.period
 
                 # If this message is to del our connection, delete this neighbor for the neighborTable
                 if distances == {} and data['source'] in self.neighborsTable:
@@ -222,7 +226,7 @@ class DCCRIP:
                         self.routingTable[readCommand.split(' ')[1] ] = {}
                         self.routingTable[readCommand.split(' ')[1] ]['weight'] = readCommand.split(' ')[2]
                         self.routingTable[readCommand.split(' ')[1] ]['next'] = [ readCommand.split(' ')[1] ]
-                        self.routingTable[readCommand.split(' ')[1] ]['timeout'] = 4*self.period
+                        self.routingTable[readCommand.split(' ')[1] ]['timeout'] = [4*self.period]
                         self.routingTable[readCommand.split(' ')[1] ]['indexOfNext'] = 0
                         self.neighborsTable[readCommand.split(' ')[1] ] = readCommand.split(' ')[2]
                         self.sendUpdates(repeat=False)
@@ -235,7 +239,7 @@ class DCCRIP:
                         if ip in self.neighborsTable: # Remove the ip from neighborhood if it is neighbor
                             del self.neighborsTable[ip]
 
-                            for old in self.routingTable:
+                            for old in self.routingTable.copy():
                                 if ip in self.routingTable[old]['next']:
                                     if len(self.routingTable[old]['next']) == 1:
                                         #if it is unique route in the table, remove it
@@ -243,6 +247,7 @@ class DCCRIP:
                                     else:
                                         #if have more then one, remove just that index
                                         self.routingTable[old]['next'].remove(ip)
+                                        del self.routingTable[old]['timeout'][ self.routingTable[old]['next'].index(ip) ]
                                         self.routingTable[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
                             self.sendUpdates(repeat=False , ipExcluded=ip) # Send the news from the others.
                         else:
@@ -296,13 +301,14 @@ class DCCRIP:
                         del distances[old]
                     else:
                         if key in distances[old]['next']:
-                            if len(self.routingTable[old]['next']) == 1:
+                            if len(self.routingTable[old]['next']) == 1: # if have not other pointing, remove this node
                                 #if it is unique route in the table, remove it
                                 del distances[old]
-                            else:
-                                #if have more then one, remove just that index
-                                distances[old]['next'].remove(key)
-                                distances[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
+                            # else:
+                            #     #if have more then one, remove just that index
+                            #     distances[old]['next'].remove(key)
+                            #     del distances[old]['timeout'][ distances[old]['next'].index(key) ]
+                            #     distances[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
                     
                 message = { 
                     'type'  : 'update',
@@ -334,13 +340,21 @@ class DCCRIP:
 
     def checkAndUpdatePeriods(self):
         for ip in self.routingTable.copy():
-            if ip == self.myAddress : continue
-                      
-            if int(self.routingTable[ip]['timeout']) <= 0:
-                del self.routingTable[ip]
-            else:
-                # Update timeout
-                self.routingTable[ip]['timeout'] -= self.period
+            if ip == self.myAddress : continue # Don't remove my ip
+
+            for time in self.routingTable[ip]['timeout']: # How we have a list of possible next's (balance load), we have a time for each
+                if int(time) <= 0: # if a time of next is over, remove it
+                    if len(self.routingTable[ip]['next']) == 1:
+                        del self.routingTable[ip]
+                    else:
+                        index = self.routingTable[ip]['timeout'].index(time)
+                        del self.routingTable[ip]['timeout'][index]
+                        del self.routingTable[ip]['next'][index]
+                        self.routingTable[ip]['indexOfNext'] = (self.routingTable[ip]['indexOfNext'] + 1 ) % len(self.routingTable[ip]['next'])
+                else:
+                    # Update timeout of next
+                    self.routingTable[ip]['timeout'][ self.routingTable[ip]['timeout'].index(time) ] -= self.period
+            
 
         # Check and decrease again 'period' seconds
         checkAgain = threading.Timer( self.period, self.checkAndUpdatePeriods)

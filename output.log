@@ -1423,3 +1423,51 @@ DEBUG:linha: 145,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido
 DEBUG:linha: 145,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
 DEBUG:linha: 145,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
 DEBUG:linha: 145,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 148,127.0.1.1 -operação: -> trace - passou em : 127.0.1.1 sentido ao nó: 127.0.1.1 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 116,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 117,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 10 - peso: 10 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 149,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.1 
+DEBUG:linha: 149,127.0.1.1 -operação: -> trace - passou em : 127.0.1.1 sentido ao nó: 127.0.1.1 
+DEBUG:linha: 149,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.1 
+DEBUG:linha: 149,127.0.1.1 -operação: -> trace - passou em : 127.0.1.1 sentido ao nó: 127.0.1.1 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.5 - antigo: 10 - peso: 10 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 10 - peso: 10 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 149,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 149,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 149,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 149,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 149,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 149,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 116,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 10 - peso: 10 
+DEBUG:linha: 116,127.0.1.5 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 10 - peso: 10 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.4 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.3 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.2 -operação: -> Endereço atualizado: 127.0.1.1 - antigo: 20 - peso: 20 
+DEBUG:linha: 116,127.0.1.1 -operação: -> Endereço atualizado: 127.0.1.2 - antigo: 20 - peso: 20 
+DEBUG:linha: 149,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 149,127.0.1.5 -operação: -> trace - passou em : 127.0.1.5 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 149,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
+DEBUG:linha: 149,127.0.1.2 -operação: -> trace - passou em : 127.0.1.2 sentido ao nó: 127.0.1.2 
