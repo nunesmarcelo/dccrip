@@ -4,7 +4,7 @@
 #   Marcelo Nunes da Silva
 #   Wanderson Sena
 
-# Comands:
+# Commands:
 # add <ip> <weight>
 # del <ip>
 # table <ip>
@@ -60,10 +60,10 @@ class DCCRIP:
     
     def execution(self):
         try:
-            startListen = threading.Thread(target = self.listenMessages)
+            startListen = threading.Thread(target = self.listenMessages) # Receive updates for neighbors
             startListen.start()
             
-            startInput = threading.Thread(target = self.listenInputs)
+            startInput = threading.Thread(target = self.listenInputs) # Receive the inputs of user
             startInput.start()
 
             self.sendUpdates() #  Send Updates at every 'period' seconds (timer to repeat inside the function)
@@ -209,9 +209,11 @@ class DCCRIP:
              while True:
                 readCommand = self.input.readline() if self.input != None else input() #input() if has no file open, or readline() otherwise.
                 
+                # Exit to the program
                 if(readCommand == 'quit'):
                     os._exit(0)
 
+                # If the file input is over, listen user commands
                 if(readCommand == '' and self.input != None):
                     self.input = None
                     continue
@@ -231,6 +233,7 @@ class DCCRIP:
                         self.neighborsTable[readCommand.split(' ')[1] ] = readCommand.split(' ')[2]
                         self.sendUpdates(repeat=False)
                 
+                # Del Neighbor
                 if readCommand.split(' ')[0] == 'del':
                     if len( readCommand.split(' ')) <= 1:
                         print('Input failure. Correct pattern:\t del <ip>')
@@ -246,8 +249,9 @@ class DCCRIP:
                                         del self.routingTable[old]
                                     else:
                                         #if have more then one, remove just that index
-                                        self.routingTable[old]['next'].remove(ip)
-                                        del self.routingTable[old]['timeout'][ self.routingTable[old]['next'].index(ip) ]
+                                        index = self.routingTable[old]['next'].index(ip) 
+                                        del self.routingTable[old]['next'][index]
+                                        del self.routingTable[old]['timeout'][index]
                                         self.routingTable[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
                             self.sendUpdates(repeat=False , ipExcluded=ip) # Send the news from the others.
                         else:
@@ -281,6 +285,8 @@ class DCCRIP:
                             
                             #update the index of next (used for balance the load)
                             self.routingTable[destination]['indexOfNext'] = (self.routingTable[destination]['indexOfNext'] + 1) % len(self.routingTable[destination]['next'])
+                
+                # Extra command: print
                 if readCommand.split(' ')[0] == 'print':
                     self.printTables()
 
@@ -289,7 +295,10 @@ class DCCRIP:
 
     def sendUpdates(self , repeat = True , ipExcluded = None):
         try:
-            sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP socket
+            # UDP socket
+            sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
+
+            #Send update for each neighbor
             for key in self.neighborsTable.copy():
 
                 # Make a copy of routingTable 
@@ -304,12 +313,6 @@ class DCCRIP:
                             if len(self.routingTable[old]['next']) == 1: # if have not other pointing, remove this node
                                 #if it is unique route in the table, remove it
                                 del distances[old]
-                            # else:
-                            #     #if have more then one, remove just that index
-                            #     distances[old]['next'].remove(key)
-                            #     del distances[old]['timeout'][ distances[old]['next'].index(key) ]
-                            #     distances[old]['indexOfNext'] = (self.routingTable[old]['indexOfNext'] + 1) % len(self.routingTable[old]['next'])
-                    
                 message = { 
                     'type'  : 'update',
                     'source': self.myAddress ,  
@@ -319,9 +322,7 @@ class DCCRIP:
 
                 if key in self.routingTable:
                     sock.sendto(str.encode( json.dumps( message ) ), ( self.routingTable[key]['next'][self.routingTable[key]['indexOfNext']], self.port))
-                    #update the index of next (used for balance the load)
-                    # self.routingTable[key]['indexOfNext'] = (self.routingTable[key]['indexOfNext'] + 1) % len(self.routingTable[key]['next'])
-
+                    
             if (ipExcluded != None): # Used for inform ip that the connection is over (hey, my side canceled the connection)
                 message = { 
                     'type'  : 'update',
@@ -331,7 +332,7 @@ class DCCRIP:
                 }
                 sock.sendto(str.encode( json.dumps( message ) ), (ipExcluded, self.port))
 
-            if (repeat): # update every 'period' seconds
+            if (repeat): # send updates every 'period' seconds
                 startSend = threading.Timer( self.period, self.sendUpdates)
                 startSend.start()
 
@@ -339,10 +340,13 @@ class DCCRIP:
             raise KeyboardInterrupt
 
     def checkAndUpdatePeriods(self):
+        # Look at every line in routing table
         for ip in self.routingTable.copy():
-            if ip == self.myAddress : continue # Don't remove my ip
-
-            for time in self.routingTable[ip]['timeout']: # How we have a list of possible next's (balance load), we have a time for each
+            # Don't remove my ip
+            if ip == self.myAddress : continue 
+            
+            # How we have a list of possible next's (balance load), we have a time for each
+            for time in self.routingTable[ip]['timeout']: 
                 if int(time) <= 0: # if a time of next is over, remove it
                     if len(self.routingTable[ip]['next']) == 1:
                         del self.routingTable[ip]
@@ -352,7 +356,7 @@ class DCCRIP:
                         del self.routingTable[ip]['next'][index]
                         self.routingTable[ip]['indexOfNext'] = (self.routingTable[ip]['indexOfNext'] + 1 ) % len(self.routingTable[ip]['next'])
                 else:
-                    # Update timeout of next
+                    # Decrease the timeout of next
                     self.routingTable[ip]['timeout'][ self.routingTable[ip]['timeout'].index(time) ] -= self.period
             
 
@@ -360,17 +364,15 @@ class DCCRIP:
         checkAgain = threading.Timer( self.period, self.checkAndUpdatePeriods)
         checkAgain.start()
 
-        
-
+    # Extra command, for a better debug 
     def printTables(self):
-        #threading.Timer(7 , self.printTables).start()
         try:
             print("-"*20)
-            print("**** VIZINHOS **** ")
+            print("**** Neighbors **** ")
             for k in self.neighborsTable:
                 print(k , "-> " , self.neighborsTable[k].strip('\n'))
 
-            print('**** PESOS ****')
+            print('**** Weights ****')
             for k in self.routingTable:
                print("{}----{}----{}----{}".replace('\n',' ').replace('\t',' ').replace(' ','').format(k,str( self.routingTable[k]['weight'] ).replace('\n' ,''),self.routingTable[k]['next'],self.routingTable[k]['timeout']))
             print("-"*20)
