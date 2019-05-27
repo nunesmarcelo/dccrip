@@ -66,7 +66,7 @@ class DCCRIP:
             startInput = threading.Thread(target = self.listenInputs)
             startInput.start()
 
-            self.sendUpdates() #  Send Updates at every period seconds (timer to repeat inside the function)
+            self.sendUpdates() #  Send Updates at every 'period' seconds (timer to repeat inside the function)
 
             self.checkAndUpdatePeriods() # At every period, we update the timeouts, and clean the outdated nodes
 
